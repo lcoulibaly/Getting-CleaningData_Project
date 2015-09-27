@@ -8,7 +8,7 @@ it describes how the script works
 * (3) Launch Rstudio (v 0.98.1103 or above)
 * (4) execute the script containing in the run_analysis.R file (You can create an identical R script into your work directory and execute it with : source("run_analysis.R")
 
-What does the script do:
+Execution steps of the script "run_analysis.R" :
 - the source file is downloaded into your work directory if not present (this step is skipped if you have correctly done the task 1/ and 2/)
 - the content of the zip file (UCI HAR Dataset.zip) is extracted to obtain the folder containing the raw data (text files)
 - the execution of some operations in order to create the final tidy dataset
